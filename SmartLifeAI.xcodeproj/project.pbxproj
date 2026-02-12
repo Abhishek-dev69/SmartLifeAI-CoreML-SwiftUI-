@@ -35,11 +35,6 @@
 			path = SmartLifeAI;
 			sourceTree = "<group>";
 		};
-		785C53AF2F3D9610000845C4 /* SmartLifeAITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SmartLifeAITests;
-			sourceTree = "<group>";
-		};
 		785C53B92F3D9610000845C4 /* SmartLifeAIUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SmartLifeAIUITests;
@@ -76,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				785C53A12F3D960F000845C4 /* SmartLifeAI */,
-				785C53AF2F3D9610000845C4 /* SmartLifeAITests */,
 				785C53B92F3D9610000845C4 /* SmartLifeAIUITests */,
 				785C53A02F3D960F000845C4 /* Products */,
 			);
@@ -129,9 +123,6 @@
 			);
 			dependencies = (
 				785C53AE2F3D9610000845C4 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				785C53AF2F3D9610000845C4 /* SmartLifeAITests */,
 			);
 			name = SmartLifeAITests;
 			packageProductDependencies = (
